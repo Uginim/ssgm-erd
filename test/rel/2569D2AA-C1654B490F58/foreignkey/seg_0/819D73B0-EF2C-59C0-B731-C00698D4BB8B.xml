@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="819D73B0-EF2C-59C0-B731-C00698D4BB8B" containerWithKeyObject="DB5BE67D-4FBF-DA24-D791-AA51A6D068FB" localFKIndex="A317B554-5177-AB39-BCF4-43A34931030B" name="TKNG_EXAM_EXAM_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>2316DBB7-7C07-8F94-FE09-F962FDA8B348</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<referredTableLongName>EXAM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D091027-52BC-8CEC-412F-4AF5C297284A</referredTableID>
+<keyObject>9D87B9D4-597D-8E74-3C8A-8C30C72BF76C</keyObject>
+<referredKeyID>9D87B9D4-597D-8E74-3C8A-8C30C72BF76C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EXAM_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OPNG_EXAM" directorySegmentName="seg_0" id="A0EA4EB2-A77A-F44C-DD99-0BC2BD6A6831">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 00:34:42 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<sourcePk>84C32DF3-8291-3223-A249-67AAF2D3B436</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6B9517B-82C7-4A69-C988-6001BB192156</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C2C14378-CFB6-18EC-6A7B-C4B35E09809C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

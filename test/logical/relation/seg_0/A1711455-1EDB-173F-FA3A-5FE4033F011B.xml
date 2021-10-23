@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ANSR_SBMT" directorySegmentName="seg_0" id="A1711455-1EDB-173F-FA3A-5FE4033F011B">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 00:19:11 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DF5AE9E9-F878-1D8C-5C78-000A10AC7FF2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D94F2254-58F3-0C8B-B19F-29624830CD5B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="SBMT_TIME" id="D5142839-CF89-90F3-8C38-1311B99E058E">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 00:19:45 UTC</createdTime>
+<comment><![CDATA[답안제출시각]]></comment>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

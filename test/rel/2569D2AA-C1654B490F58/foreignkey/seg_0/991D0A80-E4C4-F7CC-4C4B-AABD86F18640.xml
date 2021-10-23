@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="991D0A80-E4C4-F7CC-4C4B-AABD86F18640" containerWithKeyObject="588CAA6A-9161-56F6-258E-204E01B1A27A" localFKIndex="AB31D28D-D37F-5491-9075-5C36CF9FD2AB" name="EXAM_QSTN_QSTN_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>72DC83E7-EDB7-E713-D44B-4693F728F764</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<referredTableLongName>QSTN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A0A521C8-DACF-AF95-C456-5043B0251D7D</referredTableID>
+<keyObject>216F4013-54C2-ECF4-63B0-BE4241861D23</keyObject>
+<referredKeyID>216F4013-54C2-ECF4-63B0-BE4241861D23</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>question_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

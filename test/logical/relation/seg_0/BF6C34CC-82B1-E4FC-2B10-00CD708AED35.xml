@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EXAM_PAPR" directorySegmentName="seg_0" id="BF6C34CC-82B1-E4FC-2B10-00CD708AED35">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:57:39 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<sourcePk>C4443C48-D1B2-05FD-62F3-85BB3A5CE6E2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C2C14378-CFB6-18EC-6A7B-C4B35E09809C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4969A70-509F-1EDC-5664-011062D41B1E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

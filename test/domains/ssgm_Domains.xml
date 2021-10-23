@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="ssgm_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="120E7EFC-D818-C27C-E681-D2F6A7998468">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-24 23:47:42 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>ssgm_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CLOB_0_0_0" id="79FA03AA-9535-10FF-A655-C35D44E0A02D">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-24 23:47:42 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>ssgm_Domains</fileName>
+<logicalDatatype>LOGDT028</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

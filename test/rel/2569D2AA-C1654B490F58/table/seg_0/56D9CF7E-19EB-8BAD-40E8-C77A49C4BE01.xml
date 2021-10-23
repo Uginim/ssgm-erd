@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56D9CF7E-19EB-8BAD-40E8-C77A49C4BE01" name="ST_USR_INFO">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>D6B9517B-82C7-4A69-C988-6001BB192156</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<abbreviation>ST_USR_INFO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USR_ID" id="FB53F734-B821-4CFE-4F3E-8E31CE8603C7">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[계정ID]]></commentInRDBMS>
+<generatorID>C2396A93-1A36-3EE3-803B-49B819FDB620</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_PW" id="A64F6BA3-3625-9B35-A93E-DD6DC7E758F7">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[비밀번호]]></commentInRDBMS>
+<generatorID>F819B96A-2128-E7D8-C09D-D31D909E2623</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_NM" id="A540599C-04C4-6376-59DE-093373C058F3">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[성명]]></commentInRDBMS>
+<generatorID>D97E90B7-A0FF-E787-B549-FE4443E47071</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_BIRTH" id="CE2BE659-D70C-A6A5-7504-AEA4C934387D">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[생년월일]]></commentInRDBMS>
+<generatorID>3A09FEE2-6502-D1B4-8847-4B8744137B73</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_GENDER" id="8A52440C-7B6C-B0BC-AC12-8A5E40F3125B">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>B225548D-072F-DB62-6899-B2D753911F72</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_GUBUN" id="1CB66BF2-8E22-236D-4AF4-BDC96F55AD72">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>EB44D730-1FE0-8451-35D1-43035BC63D8B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_EMAIL" id="93DF3FFD-70C9-D63A-B98B-4CE671B37281">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>178B4406-EA1C-B0E6-2D99-6BA4C3934850</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USR_PHONE" id="04897277-0981-2A9B-7A09-7E414F9E8282">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[전화번호]]></commentInRDBMS>
+<generatorID>D23AD068-6D63-FB75-E61B-71770B155239</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USE_YN" id="27774FF8-BC6B-3D11-ED2B-A40E8ABDAE01">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>1A65D409-B304-46A5-F82F-AF5A7CF8CAF7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_USR_INFO_ID" id="DCD6634D-C2C4-E659-F39A-8FBDCD7E258E">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="596360BE-EE1B-79B8-6D89-5A6D04E81F14" name="ST_USR_INFO_PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DCD6634D-C2C4-E659-F39A-8FBDCD7E258E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BA9C457-F109-1BFC-272D-EE5E1B484AC9" name="ST_USR_INFO_USR_ID_UN">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>84C32DF3-8291-3223-A249-67AAF2D3B436</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB53F734-B821-4CFE-4F3E-8E31CE8603C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EXAM_QSTN" directorySegmentName="seg_0" id="72DC83E7-EDB7-E713-D44B-4693F728F764">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 17:09:21 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<sourcePk>7C6BEF25-FA01-E420-799A-5F928B3BEA0D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>937A1A54-50CC-B9B5-E6DC-428E3F9F976E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4969A70-509F-1EDC-5664-011062D41B1E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

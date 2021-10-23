@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TKNG_EXAM" directorySegmentName="seg_0" id="7DC14EB1-77A1-4DB7-229B-1C50755A54B4">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-22 14:03:15 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<sourcePk>84C32DF3-8291-3223-A249-67AAF2D3B436</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6B9517B-82C7-4A69-C988-6001BB192156</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF5AE9E9-F878-1D8C-5C78-000A10AC7FF2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

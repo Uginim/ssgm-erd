@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="770FA782-831D-75D4-4ED6-DD0216B190F7" name="EXAM_PAPR">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EXAM_exam_ID1" id="42035FD7-0F87-1484-AFB7-51AD96CD57E4">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23F50200-C89A-FD42-1A09-70B02789B584" referredColumn="1B9D765C-1529-5258-2842-7CBE27F30F2A"/>
+</associations>
+</Column>
+<Column name="TEST_PAPR_PAPR_ID" id="E71AED1E-5C41-EDB1-4B39-4D07B3AB180E">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0697B52C-086A-D4B4-95C9-6EE764F171D0" referredColumn="71B42C39-911F-7FEE-B949-2EF706E8B286"/>
+</associations>
+</Column>
+<Column name="TEST_PAPR_USR_ID" id="832A4B7D-99D8-F1F0-56A8-55B90AABF217">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0697B52C-086A-D4B4-95C9-6EE764F171D0" referredColumn="1D29B7C9-4E7A-FA62-4752-4E5053E066B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFD925B5-175F-7622-8764-E15CFE33B78F" name="EXAM_PAPR_PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42035FD7-0F87-1484-AFB7-51AD96CD57E4"/>
+<colUsage columnID="E71AED1E-5C41-EDB1-4B39-4D07B3AB180E"/>
+<colUsage columnID="832A4B7D-99D8-F1F0-56A8-55B90AABF217"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB920C24-C2F2-0595-CA8C-579AA258619F" name="EXAM_PAPR_EXAM_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>BF6C34CC-82B1-E4FC-2B10-00CD708AED35</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42035FD7-0F87-1484-AFB7-51AD96CD57E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FF727E6-B0F8-C5FB-9E2C-EC7E7BEC6D96" name="EXAM_PAPR_TEST_PAPR_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>BF6C34CC-82B1-E4FC-2B10-00CD708AED35</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E71AED1E-5C41-EDB1-4B39-4D07B3AB180E"/>
+<colUsage columnID="832A4B7D-99D8-F1F0-56A8-55B90AABF217"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

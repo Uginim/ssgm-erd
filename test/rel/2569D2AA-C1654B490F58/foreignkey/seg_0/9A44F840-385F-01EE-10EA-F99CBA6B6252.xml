@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A44F840-385F-01EE-10EA-F99CBA6B6252" containerWithKeyObject="588CAA6A-9161-56F6-258E-204E01B1A27A" localFKIndex="A1BF9FA2-48EC-1A09-1326-7AE93DCBED33" name="EXAM_QSTN_TEST_PAPR_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>72DC83E7-EDB7-E713-D44B-4693F728F764</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<referredTableLongName>TEST_PAPR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>79228347-9C17-6FE3-22D8-91BB8663C841</referredTableID>
+<keyObject>FC274139-D5F3-24D9-E432-A9E9AE9C6229</keyObject>
+<referredKeyID>FC274139-D5F3-24D9-E432-A9E9AE9C6229</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PAPR_ID,ST_USR_INFO_USR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

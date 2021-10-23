@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0A521C8-DACF-AF95-C456-5043B0251D7D" name="QSTN">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>937A1A54-50CC-B9B5-E6DC-428E3F9F976E</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<abbreviation>question</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="QSTN_ID" id="020E9C33-703F-63ED-600B-948D0D049CE9">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[문제ID]]></commentInRDBMS>
+<generatorID>D14C0313-A671-512F-6796-FE8C1750E4EB</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_USR_INFO_USR_ID" id="DBA69300-4AB2-9C6F-F14A-29A8931D5203">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>57ED0941-5989-7477-9E87-C85F4D96E407</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDEB5543-DAD1-8920-2B9D-BF97FD16B99C" referredColumn="FB53F734-B821-4CFE-4F3E-8E31CE8603C7"/>
+</associations>
+</Column>
+<Column name="QSTN_CTNT" id="226D86F9-B525-899B-AF8C-5D829E6C5105">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[문제내용]]></commentInRDBMS>
+<generatorID>958CA008-40F0-1208-059E-66BFD1B9827F</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QSTN_TY" id="5A7A49CD-3E99-5E22-4C9F-16D88F34276D">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>FFECA4DD-4252-60B2-56B6-EE0F097608B6</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PBLC_SCP" id="5DE67E95-EC33-8021-D38B-35400F28AA80">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>CB843A7B-8BF0-8304-502D-E91EEE258CF7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPL" id="3BDB8082-B798-3FC1-7671-10AB1CAA6A71">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>DE8BC03E-F11E-0C97-A1D2-2F7A3AAFBAAE</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VLDT" id="37B18284-D6EA-0754-9CAB-5B18A4EFB324">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>CA854F85-3474-BC5F-C613-35116CCD9B96</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="question_ID" id="E91ACDB6-E06B-CF14-D8B0-783532898CB5">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="216F4013-54C2-ECF4-63B0-BE4241861D23" name="question_PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E91ACDB6-E06B-CF14-D8B0-783532898CB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96E1436C-A402-2BB8-6BD9-25F0E55AE325" name="QSTN_QSTN_ID_UN">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>7C6BEF25-FA01-E420-799A-5F928B3BEA0D</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="020E9C33-703F-63ED-600B-948D0D049CE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50C6BADD-BA64-BB34-6B15-BD3106F26D86" name="QSTN_ST_USR_INFO_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>BC8E010C-D82A-75BA-68AE-3ED0F7FB5CBB</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBA69300-4AB2-9C6F-F14A-29A8931D5203"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

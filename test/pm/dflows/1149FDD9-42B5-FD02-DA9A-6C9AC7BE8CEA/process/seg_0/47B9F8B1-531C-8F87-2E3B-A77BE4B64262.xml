@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Process class="oracle.dbtools.crest.model.design.process.Process" name="문제작성" directorySegmentName="seg_0" id="47B9F8B1-531C-8F87-2E3B-A77BE4B64262">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:42:53 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<primary>false</primary>
+<batchMinimumTransactions>1000</batchMinimumTransactions>
+<batchTimeUnit>Second</batchTimeUnit>
+<frequencyTimeUnit>Day</frequencyTimeUnit>
+<frequencyTimes>0</frequencyTimes>
+<interactiveLongestResponseTime>5</interactiveLongestResponseTime>
+<interactiveResponseTimeUnit>Second</interactiveResponseTimeUnit>
+<mode>Unknown</mode>
+<priority>Low</priority>
+<peakPeriodsString>000000000000000000000000</peakPeriodsString>
+</Process>

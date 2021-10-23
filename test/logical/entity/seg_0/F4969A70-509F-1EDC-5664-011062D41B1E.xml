@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4969A70-509F-1EDC-5664-011062D41B1E" name="시험지">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:26:43 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TEST_PAPR</preferredAbbreviation>
+<shortName>test_paper</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="시험지ID" id="8C2B64E9-080B-010D-1242-FB8650D9E45D">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:27:02 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>PAPR_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="USR_ID" id="3770EC04-39CC-6136-7891-C6886026624F">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:18:47 UTC</createdTime>
+<generatorID>2F6537C5-EA50-D472-2CF7-47E356015BDB</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<referedAttribute>C2396A93-1A36-3EE3-803B-49B819FDB620</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="단수" id="5A12B052-D375-78AF-1137-96C3C52A3DF9">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:27:30 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<synonym>Paragraph</synonym>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>120E7EFC-D818-C27C-E681-D2F6A7998468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>PRGP_NUM</preferredAbbreviation>
+</Attribute>
+<Attribute name="시험지머릿글" id="5DF6FC78-9286-530D-3862-9E8FAAD86D31">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:28:19 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>79FA03AA-9535-10FF-A655-C35D44E0A02D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXAM_HEDR</preferredAbbreviation>
+</Attribute>
+<Attribute name="시험지꼬릿글" id="3045A4DB-4E81-474D-597E-FB4CD024EC6B">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:28:34 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>79FA03AA-9535-10FF-A655-C35D44E0A02D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>exam_footer</preferredAbbreviation>
+</Attribute>
+<Attribute name="문항간격" id="7EAD2BED-466E-ACD8-FE31-D6B476319D1D">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:29:03 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>120E7EFC-D818-C27C-E681-D2F6A7998468</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6F9635B-79D0-4346-A9C3-E1294A4A4605" name="시험지_PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:16:58 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8C2B64E9-080B-010D-1242-FB8650D9E45D,2F6537C5-EA50-D472-2CF7-47E356015BDB</newElementsIDs>
+<usedAttributes>
+<attributeRef>8C2B64E9-080B-010D-1242-FB8650D9E45D</attributeRef>
+<attributeRef>3770EC04-39CC-6136-7891-C6886026624F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

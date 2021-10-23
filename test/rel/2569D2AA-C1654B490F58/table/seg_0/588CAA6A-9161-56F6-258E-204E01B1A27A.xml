@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="588CAA6A-9161-56F6-258E-204E01B1A27A" name="EXAM_QSTN">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="QSTN_question_ID" id="DD8B1A4A-248F-8BD1-0691-E117B977F6FB">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="991D0A80-E4C4-F7CC-4C4B-AABD86F18640" referredColumn="E91ACDB6-E06B-CF14-D8B0-783532898CB5"/>
+</associations>
+</Column>
+<Column name="TEST_PAPR_PAPR_ID" id="0838F9CF-C2BD-1057-DD2D-59FD866797E8">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A44F840-385F-01EE-10EA-F99CBA6B6252" referredColumn="71B42C39-911F-7FEE-B949-2EF706E8B286"/>
+</associations>
+</Column>
+<Column name="TEST_PAPR_USR_ID" id="30CB4A4B-C659-031F-55B4-437FB48DD5BE">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A44F840-385F-01EE-10EA-F99CBA6B6252" referredColumn="1D29B7C9-4E7A-FA62-4752-4E5053E066B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DE6C813-414D-3E39-7850-5A998E229FF1" name="EXAM_QSTN_PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD8B1A4A-248F-8BD1-0691-E117B977F6FB"/>
+<colUsage columnID="0838F9CF-C2BD-1057-DD2D-59FD866797E8"/>
+<colUsage columnID="30CB4A4B-C659-031F-55B4-437FB48DD5BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB31D28D-D37F-5491-9075-5C36CF9FD2AB" name="EXAM_QSTN_QSTN_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>72DC83E7-EDB7-E713-D44B-4693F728F764</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD8B1A4A-248F-8BD1-0691-E117B977F6FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1BF9FA2-48EC-1A09-1326-7AE93DCBED33" name="EXAM_QSTN_TEST_PAPR_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>72DC83E7-EDB7-E713-D44B-4693F728F764</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0838F9CF-C2BD-1057-DD2D-59FD866797E8"/>
+<colUsage columnID="30CB4A4B-C659-031F-55B4-437FB48DD5BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

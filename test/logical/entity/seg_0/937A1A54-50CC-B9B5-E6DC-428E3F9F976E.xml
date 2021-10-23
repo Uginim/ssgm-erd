@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="937A1A54-50CC-B9B5-E6DC-428E3F9F976E" name="문제">
+<createdBy>uginim</createdBy>
+<createdTime>2021-08-11 00:56:10 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>QSTN</preferredAbbreviation>
+<shortName>question</shortName>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="문제ID" id="D14C0313-A671-512F-6796-FE8C1750E4EB">
+<createdBy>uginim</createdBy>
+<createdTime>2021-08-27 17:17:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[문제ID]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>QSTN_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="USR_ID" id="57ED0941-5989-7477-9E87-C85F4D96E407">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:32:24 UTC</createdTime>
+<generatorID>BC8E010C-D82A-75BA-68AE-3ED0F7FB5CBB</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<referedAttribute>C2396A93-1A36-3EE3-803B-49B819FDB620</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="문제내용" id="958CA008-40F0-1208-059E-66BFD1B9827F">
+<createdBy>uginim</createdBy>
+<createdTime>2021-08-27 17:17:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[문제내용]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>QSTN_CTNT</preferredAbbreviation>
+</Attribute>
+<Attribute name="문제유형" id="FFECA4DD-4252-60B2-56B6-EE0F097608B6">
+<createdBy>uginim</createdBy>
+<createdTime>2021-08-27 17:17:33 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>QSTN_TY</preferredAbbreviation>
+</Attribute>
+<Attribute name="공개범위" id="CB843A7B-8BF0-8304-502D-E91EEE258CF7">
+<createdBy>uginim</createdBy>
+<createdTime>2021-08-27 17:17:51 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>PBLC_SCP</preferredAbbreviation>
+</Attribute>
+<Attribute name="해설" id="DE8BC03E-F11E-0C97-A1D2-2F7A3AAFBAAE">
+<createdBy>uginim</createdBy>
+<createdTime>2021-08-27 17:20:42 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXPL</preferredAbbreviation>
+</Attribute>
+<Attribute name="유효여부" id="CA854F85-3474-BC5F-C613-35116CCD9B96">
+<createdBy>uginim</createdBy>
+<createdTime>2021-08-27 17:20:50 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>VLDT</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C6BEF25-FA01-E420-799A-5F928B3BEA0D" name="문제 PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:55:55 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D14C0313-A671-512F-6796-FE8C1750E4EB</newElementsIDs>
+<usedAttributes>
+<attributeRef>D14C0313-A671-512F-6796-FE8C1750E4EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

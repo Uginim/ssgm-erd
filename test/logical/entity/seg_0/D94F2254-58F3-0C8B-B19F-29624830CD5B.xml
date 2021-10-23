@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D94F2254-58F3-0C8B-B19F-29624830CD5B" name="보기">
+<createdBy>uginim</createdBy>
+<createdTime>2021-08-11 00:57:58 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ANSWER</preferredAbbreviation>
+<shortName>answer</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="보기ID" id="B9C0DFB8-0EE5-FB59-D6EC-02573C7DF5AD">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:47:00 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>ANSR_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="보기내용" id="6DAE857E-18ED-2D25-CFD0-E40C9E2B43ED">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:46:11 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>ANSR_CTNT</preferredAbbreviation>
+</Attribute>
+<Attribute name="정답여부" id="492AF91F-610B-BC23-CF63-D9021B6AF3E7">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:46:32 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>CRRT_YN</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="306793EA-16A8-572B-4534-AD89CDD3108B" name="보기 PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:34:41 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B9C0DFB8-0EE5-FB59-D6EC-02573C7DF5AD</newElementsIDs>
+<usedAttributes>
+<attributeRef>B9C0DFB8-0EE5-FB59-D6EC-02573C7DF5AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TAKN_EXAM" directorySegmentName="seg_0" id="2316DBB7-7C07-8F94-FE09-F962FDA8B348">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-22 14:02:53 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<sourcePk>C4443C48-D1B2-05FD-62F3-85BB3A5CE6E2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C2C14378-CFB6-18EC-6A7B-C4B35E09809C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF5AE9E9-F878-1D8C-5C78-000A10AC7FF2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

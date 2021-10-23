@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2C14378-CFB6-18EC-6A7B-C4B35E09809C" name="시험">
+<createdBy>uginim</createdBy>
+<createdTime>2021-08-11 00:57:10 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>EXAM</preferredAbbreviation>
+<shortName>exam</shortName>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="시험ID" id="3107C984-62C3-6801-5677-11D6CB46C3CA">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:14:41 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXAM_ID</preferredAbbreviation>
+</Attribute>
+<Attribute name="시험명" id="B817F1E8-1B2C-39D3-6231-9FD83F8F523D">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:14:53 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<preferredAbbreviation>EXAM_NM</preferredAbbreviation>
+</Attribute>
+<Attribute name="시험시작일시" id="FE8B9121-9780-78CE-B8DF-42F1E30D0E87">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:49:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXAM_START_TIME</preferredAbbreviation>
+</Attribute>
+<Attribute name="시험종료일시" id="E02245AB-6DDC-3F91-26C9-5A6A24761167">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:49:26 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>EXAM_END_TIME</preferredAbbreviation>
+</Attribute>
+<Attribute name="USR_ID" id="AE83DA4B-3DFA-6FCF-D63F-B751D05DB677">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 00:34:42 UTC</createdTime>
+<generatorID>A0EA4EB2-A77A-F44C-DD99-0BC2BD6A6831</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<referedAttribute>C2396A93-1A36-3EE3-803B-49B819FDB620</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C4443C48-D1B2-05FD-62F3-85BB3A5CE6E2" name="시험 PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:49:09 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3107C984-62C3-6801-5677-11D6CB46C3CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

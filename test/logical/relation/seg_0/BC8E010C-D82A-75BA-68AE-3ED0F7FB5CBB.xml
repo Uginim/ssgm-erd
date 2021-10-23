@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="QSTN_WRTN" directorySegmentName="seg_0" id="BC8E010C-D82A-75BA-68AE-3ED0F7FB5CBB">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:25:07 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<sourcePk>84C32DF3-8291-3223-A249-67AAF2D3B436</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6B9517B-82C7-4A69-C988-6001BB192156</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>937A1A54-50CC-B9B5-E6DC-428E3F9F976E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

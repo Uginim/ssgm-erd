@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="168DDF4E-5454-E85E-8A76-C68CCF9E26E2" name="ANSWER">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>D94F2254-58F3-0C8B-B19F-29624830CD5B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<abbreviation>answer</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ANSR_ID" id="B4EA4DF8-C477-410A-BA4C-E9DBB524F736">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>B9C0DFB8-0EE5-FB59-D6EC-02573C7DF5AD</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANSR_CTNT" id="3AA08C73-2F8F-6AFE-0143-936F4C9A98D5">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>6DAE857E-18ED-2D25-CFD0-E40C9E2B43ED</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CRRT_YN" id="4320210D-77AE-9250-D93A-E2C02CAA50D3">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>492AF91F-610B-BC23-CF63-D9021B6AF3E7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QSTN_question_ID" id="B7DFF996-2485-73ED-5D09-6CD7CB6D883A">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="684D1445-E49F-3498-8966-357064BED0AB" referredColumn="E91ACDB6-E06B-CF14-D8B0-783532898CB5"/>
+</associations>
+</Column>
+<Column name="ST_USR_INFO_ST_USR_INFO_ID" id="9B5C2D4F-7474-BA32-89DA-084FFECE1EAF">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B074219-2BA2-2BA6-DF81-04961DD1CDCB" referredColumn="DCD6634D-C2C4-E659-F39A-8FBDCD7E258E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F919E8CC-6ADA-60E6-D843-C2CDB63E23C1" name="ANSWER_PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>306793EA-16A8-572B-4534-AD89CDD3108B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4EA4DF8-C477-410A-BA4C-E9DBB524F736"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E619DD1B-4FC9-D8A2-FA31-A85C39AA55B9" name="ANSWER_QSTN_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>8096A9ED-83EE-52EF-7FC1-70778ED80886</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7DFF996-2485-73ED-5D09-6CD7CB6D883A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="386F9D87-D242-746B-2D39-0385D195B705" name="ANSWER_ST_USR_INFO_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>E11DEEE4-79B6-B5B3-B1B5-39A7F199D8B0</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B5C2D4F-7474-BA32-89DA-084FFECE1EAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

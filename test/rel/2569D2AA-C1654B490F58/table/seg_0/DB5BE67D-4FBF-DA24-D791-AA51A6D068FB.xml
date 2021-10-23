@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB5BE67D-4FBF-DA24-D791-AA51A6D068FB" name="TKNG_EXAM">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>DF5AE9E9-F878-1D8C-5C78-000A10AC7FF2</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<abbreviation>TakingEXAM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EXAM_EXAM_ID" id="E848971F-932E-7CFE-7D7C-DAFB9CE93C17">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>58318FD6-4234-9723-63A2-7841774937A0</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="819D73B0-EF2C-59C0-B731-C00698D4BB8B" referredColumn="EAD30CDE-877D-2D83-419E-F957B137CFD5"/>
+</associations>
+</Column>
+<Column name="ST_USR_INFO_USR_ID" id="48CA48CA-8AE2-64FF-004C-228765D4B0AB">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>EB7DD7CD-345E-8785-E527-9D6FE136AE51</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A7C89EB-B42C-E575-D216-2AEEFDBE7E61" referredColumn="FB53F734-B821-4CFE-4F3E-8E31CE8603C7"/>
+</associations>
+</Column>
+<Column name="TKNG_START_TIME" id="6CFD7908-060F-D9D2-DC16-626550DC86F4">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>688DAC3D-E77A-03C8-5184-1D4B34729BB7</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TKNG_END_TIME" id="8C9BB0FA-D4DB-3F39-5FA4-0E180D6E34E7">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>F2D5CB5E-A4B1-8E9F-DB57-4498F9F7C0CC</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5DC28FF-3ADD-5634-C863-EF2C497DCE79" name="TKNG_EXAM_PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>F56AB7F8-2E23-08E5-45FB-906529872CEE</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48CA48CA-8AE2-64FF-004C-228765D4B0AB"/>
+<colUsage columnID="E848971F-932E-7CFE-7D7C-DAFB9CE93C17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A317B554-5177-AB39-BCF4-43A34931030B" name="TKNG_EXAM_EXAM_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>2316DBB7-7C07-8F94-FE09-F962FDA8B348</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E848971F-932E-7CFE-7D7C-DAFB9CE93C17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE32848B-DCD8-0693-1251-1226F280693A" name="TKNG_EXAM_ST_USR_INFO_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>7DC14EB1-77A1-4DB7-229B-1C50755A54B4</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48CA48CA-8AE2-64FF-004C-228765D4B0AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

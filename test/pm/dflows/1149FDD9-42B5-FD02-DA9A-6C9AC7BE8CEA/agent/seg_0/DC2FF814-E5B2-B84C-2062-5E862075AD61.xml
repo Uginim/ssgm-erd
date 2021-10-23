@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ExternalAgent class="oracle.dbtools.crest.model.design.process.ExternalAgent" name="사용자" directorySegmentName="seg_0" id="DC2FF814-E5B2-B84C-2062-5E862075AD61">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-23 16:43:29 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<fieldSeparator>,</fieldSeparator>
+<fileType>CSV</fileType>
+<selfDescribing>false</selfDescribing>
+<skipRecords>0</skipRecords>
+<transfertype>Full Refresh</transfertype>
+<type>3</type>
+</ExternalAgent>

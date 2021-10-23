@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D6B9517B-82C7-4A69-C988-6001BB192156" name="사용자">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:57:11 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>ST_USR_INFO</preferredAbbreviation>
+<shortName>ST_USR_INFO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="USR_ID" id="C2396A93-1A36-3EE3-803B-49B819FDB620">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:57:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[계정ID]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USR_PW" id="F819B96A-2128-E7D8-C09D-D31D909E2623">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 05:00:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[비밀번호]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USR_NM" id="D97E90B7-A0FF-E787-B549-FE4443E47071">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 05:00:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[성명]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USR_BIRTH" id="3A09FEE2-6502-D1B4-8847-4B8744137B73">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 02:57:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[생년월일]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USR_GENDER" id="B225548D-072F-DB62-6899-B2D753911F72">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 00:43:18 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USR_GUBUN" id="EB44D730-1FE0-8451-35D1-43035BC63D8B">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 00:43:18 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USR_EMAIL" id="178B4406-EA1C-B0E6-2D99-6BA4C3934850">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 05:00:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USR_PHONE" id="D23AD068-6D63-FB75-E61B-71770B155239">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 00:43:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[전화번호]]></commentInRDBMS>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USE_YN" id="1A65D409-B304-46A5-F82F-AF5A7CF8CAF7">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 00:43:20 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84C32DF3-8291-3223-A249-67AAF2D3B436" name="사용자 PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-09-03 05:02:59 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C2396A93-1A36-3EE3-803B-49B819FDB620</newElementsIDs>
+<usedAttributes>
+<attributeRef>C2396A93-1A36-3EE3-803B-49B819FDB620</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

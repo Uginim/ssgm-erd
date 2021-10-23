@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF5AE9E9-F878-1D8C-5C78-000A10AC7FF2" name="응시">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-22 13:13:53 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TKNG_EXAM</preferredAbbreviation>
+<shortName>TakingEXAM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="시험ID" id="58318FD6-4234-9723-63A2-7841774937A0">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-22 14:02:53 UTC</createdTime>
+<generatorID>2316DBB7-7C07-8F94-FE09-F962FDA8B348</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<referedAttribute>3107C984-62C3-6801-5677-11D6CB46C3CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USR_ID" id="EB7DD7CD-345E-8785-E527-9D6FE136AE51">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-22 14:03:15 UTC</createdTime>
+<generatorID>7DC14EB1-77A1-4DB7-229B-1C50755A54B4</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<referedAttribute>C2396A93-1A36-3EE3-803B-49B819FDB620</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="응시시작일시" id="688DAC3D-E77A-03C8-5184-1D4B34729BB7">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-22 14:11:04 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>TKNG_START_TIME</preferredAbbreviation>
+</Attribute>
+<Attribute name="응시종료시각" id="F2D5CB5E-A4B1-8E9F-DB57-4498F9F7C0CC">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 00:17:29 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>TKNG_END_TIME</preferredAbbreviation>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F56AB7F8-2E23-08E5-45FB-906529872CEE" name="응시 PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-22 14:03:15 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2569D2AA-17BA-0BD0-4538-C1654B490F58" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB7DD7CD-345E-8785-E527-9D6FE136AE51</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

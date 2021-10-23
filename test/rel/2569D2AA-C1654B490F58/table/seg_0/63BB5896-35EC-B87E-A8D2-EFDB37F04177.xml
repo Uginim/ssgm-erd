@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63BB5896-35EC-B87E-A8D2-EFDB37F04177" name="ANSR_SBMT">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TKNG_EXAM_USR_ID" id="0E3816DD-1629-ABD8-EC70-A7C7AEF06AA1">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E485707C-9B45-D150-D340-E0ABEF749FAE" referredColumn="48CA48CA-8AE2-64FF-004C-228765D4B0AB"/>
+</associations>
+</Column>
+<Column name="TKNG_EXAM_시험ID" id="05D8C702-08F5-9D96-46DF-0C39892922AC">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E485707C-9B45-D150-D340-E0ABEF749FAE" referredColumn="E848971F-932E-7CFE-7D7C-DAFB9CE93C17"/>
+</associations>
+</Column>
+<Column name="ANSWER_ANSR_ID" id="FAFEBD81-0031-90A3-9D66-14E085E7A193">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89ED454E-D1B6-C5EA-8637-E052A73982F1" referredColumn="B4EA4DF8-C477-410A-BA4C-E9DBB524F736"/>
+</associations>
+</Column>
+<Column name="SBMT_TIME" id="B0DF9325-FD4C-A1E6-AB46-C890512FD4B1">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<comment><![CDATA[답안제출시각]]></comment>
+<generatorID>D5142839-CF89-90F3-8C38-1311B99E058E</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="231C7FB5-C973-85F7-1D4F-79AD2B129490" name="ANSR_SBMT_PK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E3816DD-1629-ABD8-EC70-A7C7AEF06AA1"/>
+<colUsage columnID="05D8C702-08F5-9D96-46DF-0C39892922AC"/>
+<colUsage columnID="FAFEBD81-0031-90A3-9D66-14E085E7A193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="250EAEE8-37A2-24E8-088F-42E135458E43" name="ANSR_SBMT_TKNG_EXAM_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>A1711455-1EDB-173F-FA3A-5FE4033F011B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E3816DD-1629-ABD8-EC70-A7C7AEF06AA1"/>
+<colUsage columnID="05D8C702-08F5-9D96-46DF-0C39892922AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="519F7CCF-EA9B-1965-E9F1-341F2C719D56" name="ANSR_SBMT_ANSWER_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>A1711455-1EDB-173F-FA3A-5FE4033F011B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAFEBD81-0031-90A3-9D66-14E085E7A193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89ED454E-D1B6-C5EA-8637-E052A73982F1" containerWithKeyObject="63BB5896-35EC-B87E-A8D2-EFDB37F04177" localFKIndex="519F7CCF-EA9B-1965-E9F1-341F2C719D56" name="ANSR_SBMT_ANSWER_FK">
+<createdBy>uginim</createdBy>
+<createdTime>2021-10-23 05:02:14 UTC</createdTime>
+<generatorID>A1711455-1EDB-173F-FA3A-5FE4033F011B</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<referredTableLongName>ANSWER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>168DDF4E-5454-E85E-8A76-C68CCF9E26E2</referredTableID>
+<keyObject>F919E8CC-6ADA-60E6-D843-C2CDB63E23C1</keyObject>
+<referredKeyID>F919E8CC-6ADA-60E6-D843-C2CDB63E23C1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ANSR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
